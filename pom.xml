@@ -38,7 +38,7 @@
         <version.wildfly.maven.plugin>1.0.1.Final</version.wildfly.maven.plugin>
         <version.jboss.maven.plugin>7.4.Final</version.jboss.maven.plugin>
         <version.war.maven.plugin>2.6</version.war.maven.plugin>
-        <version.wildfly>10.1.0.Final</version.wildfly>
+        <version.wildfly>11.0.0.Alpha1</version.wildfly>
         <version.enforcer.maven.plugin>1.4.1</version.enforcer.maven.plugin>
         <version.graphene.webdriver>2.1.0.Final</version.graphene.webdriver>
         <version.client.registration>3.1.0.CR1-SNAPSHOT</version.client.registration>
@@ -219,7 +219,7 @@
                                     <executable>./jboss-cli.sh</executable>
                                     <workingDirectory>target/wildfly-${version.wildfly}/bin</workingDirectory>
                                     <arguments>
-                                        <argument>--file=adapter-install-offline.cli</argument>
+                                        <argument>--file=adapter-elytron-install-offline.cli</argument>
                                     </arguments>
                                 </configuration>
                             </execution>
