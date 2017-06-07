@@ -4,7 +4,7 @@ service-nodejs: Node.js Service
 Level: Beginner
 Technologies: Node.js
 Summary: Node.js Service
-Target Product: Keycloak, WildFly
+Target Product: <span>Keycloak</span>, WildFly
 Source: <https://github.com/keycloak/keycloak-quickstarts>
 
 
