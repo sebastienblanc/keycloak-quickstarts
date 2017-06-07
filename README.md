@@ -3,6 +3,7 @@
 The quickstarts demonstrate securing applications with <span>Keycloak</span>. They provide small, specific, working examples
 that can be used as a reference for your own project.
 
+My custom change.
 
 Introduction
 ------------
