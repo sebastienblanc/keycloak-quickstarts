@@ -4,21 +4,21 @@ app-springboot: SpringBoot Application
 Level: Beginner
 Technologies: SpringBoot, Spring MVC, Spring Security
 Summary: SpringBoot, Spring MVC, Spring Security
-Target Product: <span>Keycloak</span>
+Target Product: Red Hat SSO
 Source: <https://github.com/keycloak/keycloak-quickstarts>
 
 
 What is it?
 -----------
 
-The `app-springboot` quickstart demonstrates how to write a SpringBoot application that is secured with <span>Keycloak</span>.
+The `app-springboot` quickstart demonstrates how to write a SpringBoot application that is secured with Red Hat SSO.
 
 This application contains 2 pages :
 
 * A public landing page.
 * A secured product page.
 
-This application also show how to combine Spring Security with <span>Keycloak</span>.
+This application also show how to combine Spring Security with Red Hat SSO.
 
 
 System Requirements
@@ -31,14 +31,14 @@ services are located at `http://localhost:8081/products`. If the services are ru
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-Configuration in <span>Keycloak</span>
+Configuration in Red Hat SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in <span>Keycloak</span> and download the installation file.
+Prior to running the quickstart you need to create a client in Red Hat SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
-* Open the <span>Keycloak</span> admin console
+* Open the Red Hat SSO admin console
 * Select `Clients` from the menu
 * Click `Create`
 * Add the following values:
@@ -90,7 +90,7 @@ You can access the application with the following URL: <http://localhost:8080/>.
 Integration test of the Quickstart
 ----------------------------------
 
-1. Make sure you have an <span>Keycloak</span> server running with an admin user in the `master` realm or use the provided docker image
+1. Make sure you have an Red Hat SSO server running with an admin user in the `master` realm or use the provided docker image
 2. Be sure to set the `TestHelper.keycloakBaseUrl` in the `createArchive` method (default URL is localhost:8180/auth).
 3. Set accordingly the correct url for the `keycloak.auth-server-url` in the test [application.properties](src/test/resources/application.properties).
 4. Maker sure the [service-springboot-rest](../service-springboot-rest) is running
