@@ -33,4 +33,7 @@
     <extension qualifier="webdriver">
         <property name="browser">phantomjs</property>
     </extension>
+    <extension qualifier="graphene">
+        <property name="waitGuiInterval">3</property>
+    </extension>
 </arquillian>

@@ -29,8 +29,7 @@
             <property name="jbossHome">${basedir}/target/wildfly-${version.wildfly}</property>
         </configuration>
     </container>
-
-    <extension qualifier="webdriver">
-        <property name="browser">chromeHeadless</property>
+    <extension qualifier="graphene">
+        <property name="waitGuiInterval">3</property>
     </extension>
 </arquillian>
